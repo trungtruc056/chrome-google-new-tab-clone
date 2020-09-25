@@ -1,2 +1,2 @@
-# react-ldp-exercise
-React Landing Page Exercise
+# chrome-google-new-tab-clone
+Chrome Google new tab clone
