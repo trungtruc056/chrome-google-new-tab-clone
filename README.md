@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Portfolio with chrome google new tab template
+
+### [LIVE DEMO](https://ryul-portfolio.herokuapp.com/)
+
+## Pictures
+
+### Light Theme
+![Light Theme](https://github.com/trungtruc056/chrome-google-new-tab-clone/blob/master/screenshot-light.jpg)
+
+### Dark Theme
+![Dark Theme](https://github.com/trungtruc056/chrome-google-new-tab-clone/blob/master/screenshot-dark.jpg)
+
+### Mobile
+
+![Mobile](https://github.com/trungtruc056/chrome-google-new-tab-clone/blob/master/screenshot-mobile.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
