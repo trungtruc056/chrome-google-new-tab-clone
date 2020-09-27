@@ -2,12 +2,14 @@
   "name": "chrome-google-new-tab-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://trungtruc056.github.io/chrome-google-new-tab-clone",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
+    "gh-pages": "^3.1.0",
     "jest-styled-components": "^7.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -17,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
