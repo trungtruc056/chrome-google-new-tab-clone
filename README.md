@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Portfolio with chrome google new tab template
 
-### [LIVE DEMO](https://ryul-portfolio.herokuapp.com/)
+### [LIVE DEMO](https://trungtruc056.github.io/chrome-google-new-tab-clone/)
 
 ## Pictures
 
