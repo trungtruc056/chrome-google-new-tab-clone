@@ -1,9 +1,11 @@
 import React from 'react';
-import { shallowWithTheme } from 'utils/testUtils';
+import { mountWithTheme } from 'utils/testUtils';
 
 import SearchBar from 'components/SearchBar';
 
-it('Render match Snapshot', () => {
-    const wrapper = shallowWithTheme(<SearchBar />);
-    expect(wrapper).toMatchSnapshot();
+describe('Component: SearchBar', () => {
+    it('Render match Snapshot', () => {
+        const wrapper = mountWithTheme(<SearchBar />);
+        expect(wrapper).toMatchSnapshot();
+    });
 });

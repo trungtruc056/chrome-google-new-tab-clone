@@ -1,9 +1,12 @@
 import React from 'react';
+import 'jest-styled-components';
 import { shallowWithTheme } from 'utils/testUtils';
 
-import Avatar from 'components/Avatar';
+import AvatarComponent from 'components/Avatar';
 
-it('Render match Snapshot', () => {
-    const wrapper = shallowWithTheme(<Avatar />);
-    expect(wrapper).toMatchSnapshot();
+describe('Component: Avatar', () => {
+    it('Render match Snapshot', () => {
+        const wrapper = shallowWithTheme(<AvatarComponent />);
+        expect(wrapper).toMatchSnapshot();
+    });
 });

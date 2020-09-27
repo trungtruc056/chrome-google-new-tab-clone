@@ -17,7 +17,7 @@ const Background = styled.div`
     position: fixed;
 `;
 
-function BackgroundComponent(props) {
+const BackgroundComponent = props => {
     const { bgUrl, bgColor, children } = props;
     return (
         <Background bgUrl={bgUrl} bgColor={bgColor}>{children}</Background>
