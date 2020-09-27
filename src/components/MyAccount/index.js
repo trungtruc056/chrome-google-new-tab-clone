@@ -2,7 +2,7 @@ import React from 'react';
 import myData from 'utils/myData';
 import Avatar from 'components/Avatar';
 
-function MyAccount(props) {
+const MyAccount = () => {
     return (
         <Avatar
             avatarUrl={myData.avatarUrl}
