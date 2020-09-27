@@ -10,7 +10,7 @@ import bgDark from 'assets/images/background/dark-bg.jpg';
 import bgLight from 'assets/images/background/light-bg.jpg';
 
 const App = () => {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
 
     const themeToggler = () => {
         theme === 'light' ? setTheme('dark') : setTheme('light')
