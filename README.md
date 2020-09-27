@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ### Portfolio with chrome google new tab template
 
 ### [LIVE DEMO](https://trungtruc056.github.io/chrome-google-new-tab-clone/)
